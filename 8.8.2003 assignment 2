@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+int n,rem,sum,t;
+t=n;
+while(n>0)
+{
+rem=n%10;
+sum=sum+(rem*rem*rem);
+n=n'10;
+}
+printf("%d",sum);
+if(sum==t)
+{
+printf("armstrong number");
+}
+else
+{
+printf("not armstrong number");
+}}}
