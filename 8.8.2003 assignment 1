@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+int ecount,ocount,n,r;
+while(n>o)
+{
+r=n%10;
+if(n%2==0)
+{
+ecount++;
+}
+else
+{
+ocount++;
+}
+n=n/10;
+}
+if(ecount==ocount)
+{
+printf("fantasy number");
+}
+else
+{
+printf("not fantasy number");
+}
+}
+}
